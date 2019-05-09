@@ -1,0 +1,1058 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.snav
+{
+    height: 100px;
+    background-color: rgb(51,54,60);
+    display: flex;
+}
+
+
+#adminlogo i
+{
+    font-size: 50px;
+    color: white;
+    padding: 10px 0px 0px 25px;
+    margin-left: 70px;
+}
+
+#adminlogo p
+{
+    color: white;
+    margin-top: -1px;
+    margin-left: 45px;
+}
+
+.logout i
+{
+    font-size: 45px;
+    color: white;
+    margin-top: 18px;
+    margin-left: 1127px;
+}
+
+.board1
+{
+    background-image: url(../image/road.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.board2
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.sidebar1
+{
+    width:20%;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+#profile
+{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+
+#profile img
+{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+
+#profile p
+{
+    color: white;
+    position: relative;
+    top: 45px;
+    left: 60px;
+}
+
+#db
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+
+#db i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#db p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+
+#drivers
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+
+#drivers i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#drivers p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#buses
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+#buses i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#buses p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#routes
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+
+#routes i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#routes p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#std
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+#std i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#std p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#std:hover
+{
+    background-color: rgba(0,0,0,0);
+}
+
+#fal
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+#fal i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#fal p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#fal:hover
+{
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+#staffs
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+#staffs i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#staffs p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#bSch
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+    cursor: pointer;
+}
+#bSch i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#bSch p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+
+.sidebar2
+{
+    width: 75%;
+    background-color: rgba(0,0,0,0);
+    display: none;
+    float: left;
+}
+
+.minibar
+{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    margin: 30px 0px 0px 30px;
+    display: flex;
+}
+
+
+.btn
+{
+    width: 33.3%;
+    height: 100px;
+    background-color:  rgb(51,54,60);
+    cursor: pointer;
+}
+
+.btn i
+{
+    font-size: 30px;
+    color:white;
+    margin: 5px 0px 0px 15px;
+}
+
+ .btn p
+{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0px 0px 15px;
+}
+
+.mainbar
+{
+    height: 969px;
+    width: 100%;
+    background-color: rgb(51,54,60);
+    margin: 30px;
+    border-radius: 10px;
+    display: none;
+}
+
+/*admin personal info*/
+#vadmin
+{
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+#vadmin p
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+/*Creation*/
+.create1
+{
+    height: 8%;
+    outline: none;
+}
+
+.create1 button
+{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    background-color:#B5B1BA;
+    font-family: sans-serif;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-size: 18px;
+}
+
+
+.ctpanel
+{
+    height: 92%;
+    color: white;
+    display: none;
+    
+}
+
+/*Updation*/
+.updates
+{
+    height: 8%;
+    outline: none;
+    
+}
+
+.updates button
+{
+    border: none;
+    outline: none;
+    width: 20%;
+    height: 100%;
+    background-color:#B5B1BA;
+    font-family: sans-serif;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-size: 18px;   
+}
+
+.uppanel
+{
+    height: 92%;
+    color: white;
+    display: none;
+}
+
+/*Deletion of an information*/
+.deletes
+{
+    height: 8%;
+    outline: none;
+    
+}
+
+.deletes button
+{
+    border: none;
+    outline: none;
+    width: 20%;
+    height: 100%;
+    background-color:#B5B1BA;
+    font-family: sans-serif;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-size: 18px;   
+}
+
+.delpanel
+{
+    height: 92%;
+    color: white;
+    display: none;
+}
+
+
+
+/*Add information*/
+#addDri
+{
+    background-color: white;
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#addDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#addDri form input[name="drinm"]
+{
+    margin-left: 42px;
+}
+
+#addDri form input[name="driid"]
+{   
+    margin-left: 71px;
+}
+
+#addDri form input[name="addr"]
+{
+    margin-left: 74px;
+}
+
+#addDri form input[name="pno"]
+{
+    margin-left: 30px;
+}
+
+#addDri form input[type="email"]
+{
+    margin-left: 92px;
+}
+
+#addDri form input[type="submit"]
+{
+    color: white;
+    background-color: crimson;
+    padding: 12px 50px;
+    outline: none;
+    border: none;
+}
+
+
+#addDri form input[name="bid"]
+{
+    margin-left: 90px;
+}
+
+#addDri form input[name="bno"]
+{
+    margin-left: 50px;
+}
+#addDri form input[name="brt"]
+{
+    margin-left: 60px;
+}
+#addDri form input[name="bsft"]
+{
+    margin-left: 73px;
+}
+#addDri form input[name="arrt"]
+{
+    margin-left: 52px;
+}
+#addDri form input[name="dept"]
+{
+    margin-left: 27px;
+}
+
+
+
+/*update information*/
+#upDri
+{
+    background-color: white;
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#upDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#upDri form input[name="drinm"]
+{
+    margin-left: 42px;
+}
+
+#upDri form input[name="driid"]
+{   
+    margin-left: 71px;
+}
+
+#upDri form input[name="addr"]
+{
+    margin-left: 74px;
+}
+
+#upDri form input[name="pno"]
+{
+    margin-left: 30px;
+}
+
+#upDri form input[type="email"]
+{
+    margin-left: 92px;
+}
+
+#upDri form input[type="submit"]
+{
+    color: white;
+    background-color: crimson;
+    padding: 12px 50px;
+    outline: none;
+    border: none;
+}
+
+
+#upDri form input[name="bid"]
+{
+    margin-left: 90px;
+}
+
+#upDri form input[name="bno"]
+{
+    margin-left: 50px;
+}
+#upDri form input[name="brt"]
+{
+    margin-left: 60px;
+}
+#upDri form input[name="bsft"]
+{
+    margin-left: 73px;
+}
+#upDri form input[name="arrt"]
+{
+    margin-left: 52px;
+}
+#upDri form input[name="dept"]
+{
+    margin-left: 27px;
+}
+
+#upDri form input[name="nm"]
+{
+    margin-left: 90px;
+}
+
+#upDri form input[name="sid"]
+{
+    margin-left: 83px;
+}
+
+#upDri form input[name="uname"]
+{
+    margin-left: 50px;
+}
+
+#upDri form input[name="uid"]
+{
+    margin-left: 76px;
+}
+
+#upDri form input[name="mail"]
+{
+    margin-left: 111px;
+}
+
+#upDri form input[type="submit"]
+{
+    background-color: crimson;
+    color: white;
+}
+
+/* delete driver info*/
+
+#delDri
+{
+    background-color: white;
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#delDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#delDri form input[type="submit"]
+{
+    color: white;
+    background-color: crimson;
+}
+
+
+
+/*main for other tahn dashboard*/
+
+.mymain
+{
+    overflow : hidden;
+    background-color: rgb(51,54,60);
+    width : 100%;
+    margin: 30px 0px 0px 30px;
+    border-radius: 10px;
+    height: 1100px;
+}
+
+/*Show All Drivers*/
+.showDri
+{
+    display: flex;
+    width: 100%;
+}
+
+#vd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vd p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sd p
+{
+    position: relative;
+    left: 150px;
+}
+.displayDriPanel
+{
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+.disDri
+{
+    height: 10%;
+}
+
+.disDri form input[type="text"]
+{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    text-align: center;
+}
+
+.shBuses
+{
+    height: 90%;
+}
+
+.disAllDri
+{
+    height: 10%;
+    width: 100%;
+}
+.disAllDri button
+{
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    border-radius: 10px;
+}
+
+/*Show Buses info*/
+.showBus
+{
+    display: flex;
+    width: 100%;
+}
+
+#vb
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vb p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sb
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sb p
+{
+    position: relative;
+    left: 150px;
+}
+.displayBusPanel
+{
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+/*Show route info*/
+.showRoute
+{
+    display: flex;
+    width: 100%;
+}
+
+#vr
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vr p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sr
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sr p
+{
+    position: relative;
+    left: 150px;
+}
+.displayRoutePanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}
+
+/*Show student info*/
+.showStd
+{
+    display: flex;
+    width: 100%;
+}
+
+#vstd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vstd p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sstd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sstd p
+{
+    position: relative;
+    left: 150px;
+}
+.displayStdPanel
+{
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+/*Show falculty info */
+.showFal
+{
+    display: flex;
+    width: 100%;
+}
+
+#vfal
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vfal p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sfal
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sfal p
+{
+    position: relative;
+    left: 150px;
+}
+.displayFalPanel
+{
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+
+/*Show Staff Info*/
+.showStaff
+{
+    display: flex;
+    width: 100%;
+}
+
+#vstf
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vstf p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sstf
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sstf p
+{
+    position: relative;
+    left: 150px;
+}
+.displayStaffPanel
+{
+    color: white;
+    height: 100%;
+    display: none;
+}
+
+.bsDiv
+{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    height: 1000px;
+    position: relative;
+    top: 40px;
+    left: 75px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;  
+}
+
+.bsDiv button
+{
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 50px;
+    background-color: crimson;
+    margin-left: 120px;
+}

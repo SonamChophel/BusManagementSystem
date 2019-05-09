@@ -1,0 +1,791 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.snav
+{
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+}
+
+
+#adminlogo i
+{
+    font-size: 50px;
+    color: white;
+    padding: 10px 0px 0px 25px;
+    margin-left: 70px;
+}
+
+#adminlogo p
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.logout a
+{
+    position: relative;
+    top: 25px;
+    left: 1148px;
+}
+.logout i
+{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.board1
+{
+    height: 900px;
+    background-image: url(../image/road.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.board2
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+
+/*Side bar 1*/
+.sidebar1
+{
+    width: 20%;
+    background-color: rgba(0,0,0,0);
+    float: left;
+
+}
+
+#profile
+{
+    height: 250px;
+    background-color: rgb(51,54,60);
+}
+
+#profile img
+{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+
+#profile p
+{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#db
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+
+#db i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#db p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+
+#drivers
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+
+#drivers i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#drivers p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+#buses
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+#buses i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#buses p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+
+#routes
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+
+#routes i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#routes p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+
+#std
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+#std i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#std p
+{
+    color: white;
+    position:  relative;
+    top: 10px;
+    left: 35px;
+}
+
+
+#fal
+{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(51,54,60);
+}
+#fal i 
+{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+#fal p
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+/*Side Bar 2*/
+
+.sidebar2
+{
+    width: 75.5%;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    height: 750px;
+    display: none;
+}
+
+
+.minibar
+{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    margin: 30px 0px 0px 30px;
+    display: flex;
+}
+
+
+.btn
+{
+    width: 33.3%;
+    height: 100px;
+    background-color:  rgb(51,54,60);
+    cursor: pointer;
+}
+
+.btn i
+{
+    font-size: 30px;
+    color:white;
+    margin: 5px 0px 0px 15px;
+}
+
+ .btn p
+{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0px 0px 15px;
+}
+
+.mainbar
+{
+    height: 0px;
+    width: 100%;
+    background-color: rgb(51,54,60);
+    margin: 30px;
+    border-radius: 10px;
+    display: none;
+}
+
+/*staff personal info*/
+#vStaffData
+{
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 110px;    
+}
+
+#vStaffData p
+{
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+  
+}
+
+/*Creating Information*/
+#addDri
+{
+    background-color: rbga(0,0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    height: 0px;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#addDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#addDri form input[type="submit"]
+{
+    color: white;
+    background-color: crimson;
+    padding: 12px 50px;
+    outline: none;
+    border: none;
+}
+
+
+#addDri form input[name="bid"]
+{
+    margin-left: 90px;
+}
+#addDri form input[name="bno"]
+{
+    margin-left: 45px;
+}
+#addDri form input[name="drinm"]
+{
+    margin-left: 45px;
+}
+#addDri form input[name="driid"]
+{
+    width : 230px;
+    margin-left: 75px;
+}
+#addDri form input[name="brt"]
+{
+    margin-left: 62px;
+}
+
+#addDri form input[name="bshft"]
+{
+    margin-left: 73px;
+}
+
+#addDri form input[name="arrt"]
+{
+    margin-left: 53px;
+}
+#addDri form input[name="dept"]
+{
+    margin-left: 27px;
+}
+
+#addDri form input[name="pno"]
+{
+    width : 230px;
+    margin-left: 40px;
+}
+
+#addDri form input[name="eml"]
+{
+    width : 230px;
+    margin-left: 97px;
+}
+
+
+/*update information*/
+#upDri
+{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    height: 85%;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#upDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#upDri form input[type="submit"]
+{
+    background-color: crimson;
+    color: white;
+}
+
+#upDri form input[name="bid"]
+{
+    margin-left: 90px;
+}
+#upDri form input[name="bno"]
+{
+    margin-left: 45px;
+}
+#upDri form input[name="drinm"]
+{
+    margin-left: 45px;
+}
+#upDri form input[name="driid"]
+{
+    width : 230px;
+    margin-left: 75px;
+}
+#upDri form input[name="brt"]
+{
+    margin-left: 62px;
+}
+
+#upDri form input[name="bshft"]
+{
+    margin-left: 73px;
+}
+
+#upDri form input[name="arrt"]
+{
+    margin-left: 53px;
+}
+#upDri form input[name="dept"]
+{
+    margin-left: 27px;
+}
+
+#upDri form input[name="pno"]
+{
+    width : 230px;
+    margin-left: 40px;
+}
+
+#upDri form input[name="eml"]
+{
+    width : 230px;
+    margin-left: 97px;
+}
+
+/* delete driver info*/
+
+#delDri
+{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#delDri form input
+{
+    background-color: #B3B6B7;
+    margin: 10px 0px 0px 0px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#delDri form input[type="submit"]
+{
+    color: white;
+    background-color: crimson;
+}
+
+
+/*main for other than dashboard*/
+
+.mymain
+{
+    overflow: hidden;
+    background-color: rgb(51,54,60);
+    height: 880px;
+    width : 100%;
+    margin: 30px 0px 0px 30px;
+    border-radius: 10px;
+}
+
+/*Show All Drivers*/
+.showDri
+{
+    display: flex;
+    width: 100%;
+}
+
+#vd
+{
+    cursor: pointer;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vd p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sd
+{
+    cursor: pointer;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sd p
+{
+    position: relative;
+    left: 150px;
+}
+.displayDriPanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}
+
+.disDri
+{
+    height: 10%;
+}
+
+.disDri form input[type="text"]
+{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    text-align: center;
+}
+
+
+.disAllDri
+{
+    height: 10%;
+    width: 100%;
+}
+.disAllDri button
+{
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#shDrivers
+{
+    height: 90%;
+}
+
+#vAllDri
+{
+    height: 90%;
+}
+
+
+/*Show Buses info*/
+.showBus
+{
+    display: flex;
+    width: 100%;
+}
+
+#vb
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+    cursor: pointer;
+}
+#vb p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sb
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+    cursor: pointer;
+}
+
+#sb p
+{
+    position: relative;
+    left: 150px;
+}
+.displayBusPanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}
+
+/*Show route info*/
+.showRoute
+{
+    display: flex;
+    width: 100%;
+}
+
+#vr
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vr p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sr
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sr p
+{
+    position: relative;
+    left: 150px;
+}
+.displayRoutePanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}
+
+/*Show student info*/
+.showStd
+{
+    display: flex;
+    width: 100%;
+}
+
+#vstd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vstd p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sstd
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sstd p
+{
+    position: relative;
+    left: 150px;
+}
+.displayStdPanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}
+
+/*Show falculty info */
+.showFal
+{
+    display: flex;
+    width: 100%;
+}
+
+#vfal
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494B4B;
+    height: 90px;
+}
+#vfal p
+{
+    position: relative;
+    left: 150px;
+}
+    
+#sfal
+{
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;    
+    background-color: #494B4B;
+    height: 90px;
+}
+
+#sfal p
+{
+    position: relative;
+    left: 150px;
+}
+.displayFalPanel
+{
+    color: white;
+    height: 89.5%;
+    display: none;
+}

@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/road.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logobody
+{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 350px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.logodesign
+{
+    position: absolute;
+    top: -50px;
+    left: calc(45% - 50px);
+}
+
+h1 
+{
+    margin-top: 20px;
+    background-color: #1E90FF;
+    padding: 3px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.logobody p
+{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.logobody input
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.acctype
+{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.acctype option
+{
+    height: 20px;
+}
+
+.logobody input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.logobody input[type="submit"]
+{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #1E90FF;
+    border-radius: 30px;
+    padding: 8px 0px;
+}
+
+.logobody a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logobody input[type="submit"]:hover
+{
+    background-color: red;
+}
+
+.para
+{
+    font-size: 15px;
+}
+
+.logobody button
+{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    color:white;
+    height: 35px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 30px;
+}
+
+.logobody button:hover
+{
+    background-color: red;
+}

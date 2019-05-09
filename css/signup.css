@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/road.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logodesign
+{
+    position: absolute;
+    top: -75px;
+    left: 145px;
+}
+
+.forms
+{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    width: 350px;
+    border-radius: 30px;
+    padding: 15px 25px;
+    padding-bottom: 25px;
+}
+
+h1
+{
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: red;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.forms label
+{
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.forms p
+{
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.forms input[type="text"] , input[type="password"] , input[type="email"] , .acctype
+{
+    height: 25px;
+    width: 100%;
+}
+.forms input[type="text"] , input[type="password"] , input[type="email"] 
+{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.acctype option
+{
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: black;
+}
+
+.forms input[type="submit"]
+{
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    background-color: red;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.forms input[type="submit"]:hover
+{
+    background-color:dodgerblue;
+}

@@ -1,0 +1,178 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.section1
+{
+    margin: auto;
+    width: 80%;
+    height: 1220px;
+    background-image: url(../image/bus6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.notice
+{
+    margin: 30px 20px 20px 100px;
+    height: 500px;
+    width: 400px;
+    background-color:paleturquoise;
+    float: left;
+    border-radius: 50px;
+}
+
+
+.notice i
+{
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 35px;   
+}
+
+.nt
+{
+    float: right;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.alerts
+{
+    margin: 30px 20px 20px 50px;
+    height: 500px;
+    width: 400px;
+    height: 500px;
+    background-color:paleturquoise;
+    float: left;
+    border-radius: 50px;
+}
+
+.alerts i
+{
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 35px;   
+}
+
+.fine
+{
+    margin: 30px 20px 20px 100px;
+    height: 500px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    border-radius: 50px;
+    background-color:paleturquoise;
+}
+.fine i
+{
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 35px;   
+}
+
+.calen
+{
+    margin: 30px 20px 20px 50px;
+    height: 500px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    border-radius: 50px;
+    background-color:powderblue;
+}
+
+.calen i
+{
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 35px;   
+}
+
+.section2
+{
+    height: 650px;
+    width: 80%;
+    background-image: url(../image/bus5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+}
+
+/*Show bus*/
+.showbus
+{
+    height: 12%;
+    width: 100%;
+    outline: none;
+}
+
+.showbus button
+{
+    color: white;
+    border: none;
+    outline: none;
+    width: 33.3%;
+    height: 100%;
+    background-color:dimgrey;
+    font-family: sans-serif;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.buspanel
+{
+    height: 90%;
+    color: white;
+    display: none;
+}
+
+.vAllBus button
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 350px;;
+    height: 45px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    border-radius: 10px;
+}
+
+.SBusId form input[name="bid"]
+{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 45px;
+    text-align: center;
+    width: 350px;
+    position:relative;
+    top: 25px;
+    left: 350px;
+}
+
+.SBusNo form input[name="bno"]
+{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 45px;
+    text-align: center;
+    width: 350px;
+    position:relative;
+    top: 25px;
+    left: 350px;
+}

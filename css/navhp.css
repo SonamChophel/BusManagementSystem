@@ -1,0 +1,79 @@
+
+.nav
+{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.sflogo
+{
+    background-color: white;
+    float: left;
+    width: 12%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sflogo img
+{
+    width: 70%;
+    height: 90px;
+}
+.container
+{
+    float: left;
+    width: 17.6%;
+    position: sticky;
+    top: 0px;
+}
+
+.btn
+{
+    font-size: 17px;
+    font-weight: bold;
+    height: 90px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+}
+
+.btn:hover
+{
+    color: white;
+    background-color:crimson;
+}
+
+.container:hover .content
+{
+    display:block;
+}
+.content
+{
+    display: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+}
+
+.links
+{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover
+{
+    background-color:white;
+    color: black;
+}
